@@ -1,0 +1,51 @@
+
+title: Minowani's Writings on Dhamma
+author: Minowani
+active: 2021
+
+
+description: >- 
+  Minowani's Writings on Dhamma
+
+
+baseurl: ""
+url: "https://minowani.github.io" 
+
+plugins:
+  - jekyll-sitemap
+
+markdown: kramdown
+theme: minima
+
+
+collections:
+  pages:
+     output: true
+     permalink: /:path/
+  bits:
+     output: true
+     permalink: /:path/
+
+
+defaults:
+  -
+    scope:
+      path: "_pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "_bits"
+    values:
+      layout: "bits"
+      mdate: "2018-01-01"
+  - 
+    scope:
+      path: "books"
+    values:
+      ebook: true
+
+
+exclude:
+   - Gemfile
+   - Gemfile.lock

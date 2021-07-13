@@ -1,0 +1,24 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+  
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+<a class="page-link" href={{site.url}}/><small>Home</small></a> |	
+<a class="page-link" href={{site.url}}/Contact><small>Contact</small></a> |
+<small>2017-{{site.active}}</small>
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

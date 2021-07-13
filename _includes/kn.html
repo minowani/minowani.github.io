@@ -1,0 +1,12 @@
+{% assign books = site.static_files | where: "ebook", true %}
+
+{% for item in site.data.data %}
+
+{% if item.type == "ebook" %}
+ {% if item.name == {{include.ebook}} %}
+Download: [EPUB](/books/{{item.name | append: ".epub" }}), [PDF](/books/{{item.name | append: ".pdf" }})
+{% endif %}
+
+{% endif %}
+
+{% endfor %}

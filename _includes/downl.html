@@ -1,0 +1,18 @@
+{% assign books = site.static_files | where: "ebook", true %}
+
+{% for item in site.data.data %}
+
+{% if item.type == "ebook" %}
+ {% if item.name == {{include.ebook}} %}
+{{item.name}} ([EPUB](/books/{{item.name | append: ".epub" }}), [PDF](/books/{{item.name | append: ".pdf" }})) 
+<small>{{ item.date }}</small> {{ item.descr }}
+{% endif %}
+
+{% elsif item.type == "pdf" %}
+
+{% if item.name == {{include.ebook}} %}
+{{item.name}} ([PDF](/books/{{item.name | append: ".pdf" }})) <small>{{ item.date }}</small> {{ item.descr }}
+{% endif %}
+{% endif %}
+
+{% endfor %}

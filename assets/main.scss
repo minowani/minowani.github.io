@@ -1,0 +1,29 @@
+---
+---
+
+@import "minima";
+
+body {
+  color: navy;
+  background-color: white;
+}
+
+
+.site-header {
+  border-top: 5px solid orange;
+}
+
+
+.site-title, .site-title:visited {
+    font-size: 22px;
+    color: navy; 
+}  
+
+a:visited {
+	  color: #2a7ae2;
+}
+
+article {
+	color: black ;
+}
+

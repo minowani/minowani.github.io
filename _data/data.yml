@@ -1,0 +1,19 @@
+# data.yml
+
+# ebooks
+# date format: yyyy-mm-dd
+
+# Keep the items: name, type and date; 
+# those are used in downloads.
+
+- name: Knowing
+  type: ebook
+  descr: grammar
+  date: 2021-06-29
+
+- name: Paticcasamuppada
+  type: pdf
+  descr: typo
+  date: 2021-01-12
+  
+
