@@ -1,0 +1,94 @@
+body {
+
+    max-width: 680px;
+    margin: 0 auto;
+    margin-left: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+
+    font-family: "Bitstream Charter", serif; 
+    font-size: 17px; 
+    line-height: 1.6; 
+    word-spacing: 0.1em; 
+}
+
+
+blockquote {
+    margin:0;
+}
+blockquote p {
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block;
+    background-color: #eeeeee;
+    color: black;
+    border-radius: 15px; 
+}
+
+
+.maintitle {
+    margin-bottom:0;
+}
+.subtitle {
+    margin-top: 0pt;
+    margin-bottom:0;
+    font-style: Italic;
+}
+
+a {
+  color: black;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:hover { 
+    text-decoration: underline;
+}
+.nav a:link {
+    text-decoration: underline;
+}
+.nav a:hover{
+    text-decoration: none;
+}
+p {
+    text-align: justify;
+    text-justify: auto;
+}
+p.s-quote {
+    text-align: center;
+}
+li {
+    text-align: justify;
+    text-justify: auto;
+}
+hr {
+    border-top: 1px solid gray;
+    border-bottom: none;
+}
+table {
+    border-collapse: collapse;
+    border: none;
+}
+.indextable {
+  width:100%;
+  margin: 0pt;
+  padding: 0pt;
+}
+th, td {
+  vertical-align:top;
+}
+.label1{
+  font-style: italic;
+  font-size: small;
+  color: #993399;
+}
+.nodotlist{
+  list-style-type: none; 
+  padding-left: 0pt; 
+}
