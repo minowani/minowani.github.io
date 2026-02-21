@@ -1,0 +1,109 @@
+body {
+   margin-left: 5%;
+   margin-right: 10%;
+   font-family: serif, sans-serif; 
+   /*word-spacing: 0.1em;*/
+   /*background: #f0f0fc;*/
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+
+h4 {
+    font-size: 1em;
+    margin-bottom: 0px;
+}
+hr {
+  border: none;
+  border-top: 1px solid black;
+}
+
+.maintitle {
+    margin-bottom: 0%;
+}
+.subtitle {
+    margin-top: 0%;
+    font-style: italic;
+}
+
+.books {
+  color: black;
+}
+.bep {
+  margin-left: 1.5em;
+  color: black;
+}
+.trs {
+  margin-left: 1.5em;
+  color: black;
+}
+.trn {
+  margin-left: 1.5em;
+  color: black;
+}
+.trn dt {
+  padding-bottom: 0.5em;
+  font-style: italic;
+  color: black;
+}
+.trn dd {
+  font-size: smaller;
+  margin-bottom: 0.5em;
+}
+
+p {
+   text-align: justify;
+   text-justify: auto;
+}
+
+blockquote p {
+    border-left: 0.1em solid;
+    padding-left: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+
+.label_1 {
+  font-style: italic;
+  font-size: smaller;
+  color: black;
+}
+
+.label_update {
+  font-style: italic;
+  font-size: small;
+  color: green;
+}
+
+
+.myheader a {
+   text-decoration: underline;
+}
+.myheader a:hover {
+   text-decoration: none;
+}
+
+.myfooter {
+  text-align: center;
+  font-size: smaller;
+  color: black;
+}
