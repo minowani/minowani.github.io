@@ -1,0 +1,145 @@
+body {
+   margin-left: 10%;
+   margin-right: 15%;
+   font-family: serif;
+   max-width: 45em;
+   /*word-spacing: 0.1em;*/
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid black;
+}
+
+.maintitle {
+    margin-bottom: 0%;
+}
+.subtitle {
+    margin-top: 0%;
+    font-style: italic;
+}
+
+.book {
+  margin-left: 1.5em;
+  color: black;
+}
+.book a {
+  text-decoration: none;
+  color: black;
+}
+
+.book a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.cat {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+  color: black;
+}
+.bep {
+  margin-left: 1.5em;
+  color: silver;
+}
+.bep dt{
+  font-size: smaller;
+  font-weight: bold;
+  color: black;
+}
+
+.trn {
+  margin-left: 1.5em;
+}
+.trn dt {
+  font-size: smaller;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  color: black;
+}
+.trn dd {
+  font-size: smaller;
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+.TbyT {
+  font-size: smaller;
+  font-style: italic;
+  margin-left: 0em;
+  margin-bottom: 0.5em;
+}
+
+
+p {
+   text-align: justify;
+   text-justify: auto;
+}
+
+blockquote {
+  margin-left: 2.2em;
+}
+blockquote p {
+    border-left: 0.1em solid;
+    padding-left: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.label_new {
+  display: inline;
+  font-size: small;
+  font-style: italic;
+  color: orange;
+}
+
+
+.label_update {
+  font-size: small;
+  font-style: italic;
+}
+
+.label_1 {
+  font-size: small;
+}
+
+.label_2 {
+  font-size: small;
+  font-style: italic;
+}
+
+.label_3 {
+  font-size: smaller;
+}
+
+
+
+.myheader a {
+   text-decoration: underline;
+}
+.myheader a:hover {
+   text-decoration: none;
+}
+
+.myfooter {
+  text-align: center;
+  font-size: smaller;
+  color: black;
+}
+
