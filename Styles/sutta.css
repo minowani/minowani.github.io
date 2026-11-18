@@ -1,0 +1,7 @@
+blockquote{
+  margin-left: 1.1em;
+}
+blockquote p {
+  border-left: 0em;
+  padding-left: 1em;
+}
